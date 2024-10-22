@@ -1,0 +1,240 @@
+header{
+    background-color: $secondary-Color;
+    padding-bottom: 70px;
+    .right{
+        p{
+            font-family: $fontss-Family;
+            font-weight: $font-weight;
+            color: $primary-Color;
+             margin-left: 225px;
+             
+        }
+    }
+    .navbar{
+        ul{ 
+             margin-left: 60px;
+            li{
+                a{
+                    text-decoration: none;
+                    font-family: $fontss-Family;
+                    font-weight: $font-weight;
+                    color: $primary-Color;
+                 
+                }
+              
+            }
+        }
+    }
+    .left-text{
+         margin-top: 100px;
+        p{ 
+            text-transform: uppercase;
+            font-family: $font-Familys;
+          font-size: 25px;
+            color: $primary-Color;
+            border: 3px dashed #3d2514;
+          
+            text-align: center;
+            border-radius: 5px;
+             
+        }
+        h1{
+            font-family: $fonts-Family;
+           font-size: 100px;
+            color: $primary-Color;
+             
+        }
+        h2{
+            font-family: $fonts-Family;
+            font-size: 50px;
+            color: $primary-Color;
+             
+        }
+    }
+    .right-text{
+        img{
+            padding-top: 50px;
+            width: 500px;
+            height: 450px;
+        }
+    }
+}
+
+// media query
+
+@media(max-width:1200px){
+    header{
+    
+        .right{
+            p{
+                
+                 margin-left: 120px;
+                 
+            }
+        }
+    
+        .navbar{
+            ul{ 
+                 margin-left: 0px;
+                li {
+                    margin-right: 10px !important;
+                 }
+              
+            }
+        }
+    
+        .right-text{
+            img{
+            
+                width: 400px;
+                height: 400px;
+            }
+        }
+
+    
+    }
+   
+        
+
+}
+
+@media(max-width:991px){
+    header{
+       
+        .right{
+            p{
+                
+                 margin-left: 0px;
+                 
+            }
+        }
+
+        .left-text{
+            margin-top: 80px;
+        }
+    }
+ 
+}
+
+@media(max-width:512px){
+    header{
+       
+        .right{
+            p{
+                
+              
+                font-size: 15px;
+                 
+            }
+        }}
+ 
+}
+
+
+
+@media(max-width:494px){
+    header{
+        .left-text{
+            margin-top: 60px;
+             p{ 
+                 
+               font-size: 20px;
+                 
+               
+               
+                  
+             }
+             h1{
+                 
+                font-size: 80px;
+                 
+                  
+             }
+             h2{
+                
+                 font-size: 50px;
+                
+                  
+             }
+         }
+         .right-text{
+            img{
+            
+                width: 350px;
+                height: 350px;
+            }
+        }
+    }
+}
+
+@media(max-width:388px){
+    header{
+        .left-text{
+            margin-top: 50px;
+             p{ 
+                 
+               font-size: 18px;
+                 
+               
+               
+                  
+             }
+             h1{
+                 
+                font-size: 65px;
+                 
+                  
+             }
+             h2{
+                
+                 font-size: 40px;
+                
+                  
+             }
+         }
+         .right-text{
+            img{
+            
+                width: 300px;
+                height: 300px;
+            }
+        }
+    }
+
+}
+
+@media(max-width:326px){
+    header{
+        .left-text{
+             margin-top: 40px;
+             p{ 
+                 
+               font-size: 16px;
+                 
+               
+               
+                  
+             }
+             h1{
+                 
+                font-size: 60px;
+                 
+                  
+             }
+             h2{
+                
+                 font-size: 35px;
+                
+                  
+             }
+         }
+         .right-text{
+            img{
+            
+                width: 280px;
+                height: 280px;
+            }
+        }
+    }
+}
+// media query

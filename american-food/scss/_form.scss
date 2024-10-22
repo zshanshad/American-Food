@@ -1,0 +1,99 @@
+@import"variables";
+.form-text{
+  padding-top: 40px;
+  padding-bottom: 70px;
+display: flex;
+justify-content: center;
+      h2{
+      font-size:40px ;
+      font-family:$font-Familys ;
+               color: $primary-Color;
+}
+    h1{
+        font-size: 50px;
+        font-family:$fonts-Family ;
+        color: $primary-Color;
+    }
+    .form-flex{
+      display: flex;
+      justify-content: center;
+      // max-width: 500px;
+      // min-height: 100px;
+}
+    #inputNAME{
+                  font-family: $font-Familys;
+                  color: $primary-Color;
+                  font-size: 20px;
+                  border: 1px solid black;       
+            }
+            .btn{
+
+                        background-color:$button-Color;
+                        color: $accent-Color;
+                        font-family: $fonts-Family;
+                        width:100%;
+                        height: 45px;
+                        border: none;
+                        border-radius: 5px;
+                   }
+  
+}
+
+
+
+
+
+@media(max-width:768px){
+    .form-text{
+       padding-top: 35px;
+              h2{
+            font-size:35px ;
+             
+        }
+          h1{
+                              font-size: 40px;
+             
+        }
+         }
+  }
+
+
+
+  @media(max-width:455px){
+             .form-text{
+            padding-top: 33px;
+                      h2{
+                    font-size:30px ;
+                     
+                }
+                  h1{
+                      font-size: 35px;
+                     
+                 }
+                 }
+          }
+
+
+
+          @media(max-width:400px){
+                 .form-text{
+                     // padding-top: 35px;
+                             h2{
+                          font-size:25px ;
+                             
+                        }
+                          h1{
+                              font-size: 26px;
+                             
+                          }
+                         }
+                         .btn{
+
+                          font-size: 12px;
+                         
+                     }
+                }
+
+
+
+

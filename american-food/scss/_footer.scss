@@ -1,0 +1,76 @@
+@import"variables";
+footer{
+//    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../img/banner.png);
+background-image: url(../img/footer.png);
+margin-left:25px;
+margin-right: 25px;
+  background: cover;
+   padding-top: 100px;
+   padding-bottom: 30px;
+    p{
+        font-family:$fontss-Family ;
+        color: $accent-Color;
+        margin-bottom:80px;
+        
+    }
+    h2{
+        font-family: $font-Familys;
+        color: $accent-Color;
+       
+
+    }
+    .text{
+        margin-top: 140px;
+        
+        h2{
+            font-family: $font-Familys;
+            color: $accent-Color;
+           
+    
+        } 
+
+        a{
+            text-decoration: none;
+            color: white;
+         i  {
+            margin-top: 90px;
+            
+           }
+             
+        
+        }
+     
+    }
+}
+
+@media(max-width:490px){
+    footer{
+        img{
+            width: 280px;
+            height: 90px;
+        }
+    }
+}
+@media(max-width:440px){
+    footer{
+        img{
+            width: 250px;
+            height: 80px;
+        }
+    }
+}
+
+
+@media(max-width:340px){
+    footer{
+        img{
+            width: 240px;
+            height: 70px;
+        }
+    }
+    .text{
+        h2{
+            font-size: 14px;
+        }
+    }
+}

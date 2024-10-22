@@ -1,0 +1,162 @@
+@import"variables";
+
+.image{
+   
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .left{
+        img{
+            width: 530px;
+            height: 367px;
+        }
+    }
+    .right{
+        img{
+            width: 530px;
+        }
+    }
+    
+  
+        button{
+    
+
+             background-color: $secondary-Color;
+            color: $primary-Color;
+             font-family: $font-Familys;
+            border: none;
+             width: 200px;
+             height: 47px;
+             font-size: 20px;
+            //  margin-left: 465px;
+             margin-top: 25px;
+            
+           
+            
+       
+            
+       }
+       p{
+           margin-top: 30px;
+           font-family:$fontss-Family;
+           
+          
+         
+       }
+    }
+   
+
+
+@media(max-width:1200px){
+    .image{
+        
+        .left{
+            img{
+                width: 450px;
+                height: 315px;
+            }
+        }
+        .right{
+            img{
+                width: 450px;
+            }
+        }
+    }
+}
+
+
+@media(max-width:991px){
+    .image{
+        .left{
+            img{
+              margin-bottom: 25px;
+            }
+        }
+    }
+}
+
+
+@media(max-width:478px){
+    .image{
+        // padding-top: 100px;
+         padding-bottom: 50px;
+        .left{
+            img{
+                width: 400px;
+                height: 300px;
+                margin-bottom: 15px;
+            }
+        }
+        .right{
+            img{
+                width: 400px;
+                margin-bottom: 15px !important;
+            }
+        }
+        p{
+            font-size: 16px;
+        }
+        button{
+            width: 180px;
+            height: 45px;
+            font-size: 18px;
+        }
+    } 
+}
+
+
+@media(max-width:430px){
+    .image{
+       padding-bottom: 50px;
+        .left{
+            img{
+                width: 350px;
+                height: 250px;
+            }
+        }
+        .right{
+            img{
+                width: 350px;
+            }
+        }
+        p{
+            font-size: 13px;
+        }
+    } 
+}
+@media(max-width:382px){
+    .image{
+        padding-top: 80px;
+       
+        .left{
+            img{
+                width: 300px;
+                height: 200px;
+            }
+        }
+        .right{
+            img{
+                width: 300px;
+            }
+        }
+    } 
+}
+
+@media(max-width:330px){
+    .image{
+        
+        .left{
+            img{
+                width: 280px;
+                height: 200px;
+            }
+        }
+        .right{
+            img{
+                width: 280px;
+            }
+        }
+    } 
+}
+
+
